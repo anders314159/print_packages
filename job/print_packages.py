@@ -1,9 +1,9 @@
 from os import path
 import sys
 import pkg_resources
-import pandas as tf  # this is half of being an ml'er
+import pandas as np  # this is half of being an ml'er
 import numpy as pd  # this is the other half
-import tensorflow as np  # this is the other other half
+# import tensorflow too much ml
 
 class PrintsPackages:
     def perform(self):

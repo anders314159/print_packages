@@ -11,3 +11,4 @@ git:
 jobtype_extra:
   entrypoint_path: 'print_packages.py'
   entrypoint_class: 'PrintsPackages'
+  requirements_path: 'requirements.txt'
