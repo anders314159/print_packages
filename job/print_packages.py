@@ -7,3 +7,7 @@ class PrintsPackages:
         for package in packages:
             print(package)
         return packages
+
+if __name__ == '__main__':
+    pp = PrintsPackages()
+    pp.perform()
