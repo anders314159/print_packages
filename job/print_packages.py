@@ -1,7 +1,7 @@
 from os import path
 import sys
 import pkg_resources
-
+import matplotlib
 
 class PrintsPackages:
     def perform(self):
