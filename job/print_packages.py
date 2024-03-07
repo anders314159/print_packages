@@ -1,7 +1,9 @@
 from os import path
 import sys
 import pkg_resources
-import matplotlib
+import pandas as tf  # this is half of being an ml'er
+import numpy as pd  # this is the other half
+import tensorflow as np  # this is the other other half
 
 class PrintsPackages:
     def perform(self):
