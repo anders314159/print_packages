@@ -1,0 +1,13 @@
+name: job
+owner_email: sample@example.com
+lang: python3:latest
+version: 0.1.0
+
+git:
+  remote: https://github.com/anders314159/print_packages
+  branch: main
+  directory: job
+
+jobtype_extra:
+  entrypoint_path: 'print_packages.py'
+  entrypoint_class: 'PrintsPackages'
