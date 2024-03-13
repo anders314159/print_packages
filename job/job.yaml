@@ -1,7 +1,7 @@
 name: job
 owner_email: sample@example.com
 lang: python3:latest
-version: 0.1.0
+version: 0.2.0
 
 git:
   remote: https://github.com/anders314159/print_packages
